@@ -1,9 +1,9 @@
-import airrwanda from "@/public/Brand_logos/airrwanda.png";
-import dfcu from "@/public/Brand_logos/dfcu.png";
-import BoU from "@/public/Brand_logos/BoU.png";
-import mtn from "@/public/Brand_logos/mtn.jpeg";
-import uedcl from "@/public/Brand_logos/uedcl.png";
-import ura from "@/public/Brand_logos/ura.png";
+import airrwanda from "@/public/Brand_logos/dynamq.png";
+import dfcu from "@/public/Brand_logos/helios.png";
+import BoU from "@/public/Brand_logos/okello.png";
+import mtn from "@/public/Brand_logos/onyango.png";
+import uedcl from "@/public/Brand_logos/usama.png";
+import ura from "@/public/Brand_logos/yagga.png";
 
 // Nav Links
 export const navLinks = [
@@ -14,12 +14,12 @@ export const navLinks = [
 	},
 	{
 		id: 2,
-		label: "Our Services",
+		label: "Gallery",
 		url: "/product",
 	},
 	{
 		id: 3,
-		label: "Get to Know Us",
+		label: "About Me",
 		url: "/about",
 	},
 ];
@@ -30,37 +30,37 @@ export const brandLogo = [
 		id: 1,
 		url: "#",
 		href: airrwanda,
-		height: 35,
+		height: 100,
 	},
 	{
 		id: 2,
 		url: "#",
 		href: BoU,
-		height: 55,
+		height: 100,
 	},
 	{
 		id: 3,
 		url: "#",
 		href: dfcu,
-		height: 45,
+		height: 100,
 	},
 	{
 		id: 4,
 		url: "#",
 		href: mtn,
-		height: 55,
+		height: 100,
 	},
 	{
 		id: 5,
 		url: "#",
 		href: uedcl,
-		height: 55,
+		height: 100,
 	},
 	{
 		id: 6,
 		url: "#",
 		href: ura,
-		height: 80,
+		height: 100,
 	},
 ];
 

@@ -43,10 +43,10 @@ const Nav = ({ navOpen }: Props) => {
           className="cursor-pointer hover:scale-110 hover:rotate-1 transition duration-100"
         >
           <Image
-            src={"/logo/ADElogo.png"}
+            src={"/logo/pal_logo.png"}
             alt={"logo"}
-            width={50}
-            height={50}
+            width={120}
+            height={120}
           />
         </Link>
 

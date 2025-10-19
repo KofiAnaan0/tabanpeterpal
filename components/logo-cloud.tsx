@@ -11,15 +11,15 @@ export default function LogoCloud() {
 			<div className="group relative m-auto max-w-7xl px-6">
 				<div className="flex flex-col items-center justify-center">
 					{/* title */}
-					<P className="text-center text-lg md:text-xl font-bold pb-8">
-						The Choice of Leading Companies
+					<P className="text-center text-lg md:text-xl font-bold">
+						People Who Trust My Art
 					</P>
 
-					<div className="relative py-6 md:w-[calc(100%-11rem)]">
+					<div className="relative py-2 md:w-[calc(100%-11rem)]">
 						<InfiniteSlider speedOnHover={20} speed={40} gap={112}>
 							{brandLogo.map((logo) => (
 								<Link href={logo.url} key={logo.id}>
-									<div className="flex items-center justify-center h-12">
+									<div className="flex items-center justify-center h-48">
 										<Image
 											src={logo.href}
 											alt={`logo + ${logo.id}`}

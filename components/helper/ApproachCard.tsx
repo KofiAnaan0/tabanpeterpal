@@ -32,7 +32,7 @@ const ApproachCard = ({
           className={`space-y-4 flex flex-col items-center justify-center ${textOrder}`}
         >
           {/* title */}
-          <H2 className="md:text-start lg:text-start">{title}</H2>
+          <H2 className="md:text-start lg:text-start w-full">{title}</H2>
 
           {/* description */}
           <P className="md:text-start lg:text-start">{description}</P>
@@ -43,7 +43,7 @@ const ApproachCard = ({
               href={`/product#${index}`}
               className="inline-flex justify-center items-center font-medium rounded-sm shadow-lg shadow-black/30 text-sm px-4 py-2 h-10 text-white hover:shadow-xl hover:shadow-black/60 hover:rotate-1 hover:scale-110 transform transition-all duration-150 disabled:pointer-events-none cursor-pointer w-full md:w-fit bg-[#10316B] text-white focus:outline-none"
             >
-              View Products
+              View Gallary
             </Link>
             <Button
               variant="outline"
@@ -51,7 +51,7 @@ const ApproachCard = ({
                 window.dispatchEvent(new CustomEvent("openChatWidget"));
               }}
             >
-              Call Us
+              Talk to My AI
             </Button>
           </div>
         </div>

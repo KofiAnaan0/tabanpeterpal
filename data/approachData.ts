@@ -9,50 +9,42 @@ import analytics from "@/public/approach/analytics.png";
 export const approachData: ApproachType[] = [
 	{
 		id: 1,
-		index: "enterprise-management",
-		title: "ENTERPRISE SERVICE MANAGEMENT",
+		index: "Oil",
+		title: "Oil Painting",
 		description:
-			"Streamline IT and business workflows with a unified service management platform. We help organizations deliver faster, more reliable services that drive efficiency, reduce costs, and improve employee and customer experiences.",
+			" Created with vibrant pigments and smooth textures, oil paintings bring depth, warmth, and timeless elegance to every subject, making each piece a lasting masterpiece.",
 		imageUrl: enterprise,
 	},
 	{
 		id: 2,
-		index: "iam",
-		title: "IDENTITY & ACCESS MANAGEMENT",
+		index: "Jersey",
+		title: "Jersey Painting",
 		description:
-			"Protect your business with seamless control over who has access to what. Our IAM solutions simplify user onboarding and offboarding, enforce the right privileges, and reduce the risk of unauthorized access — keeping your data secure and your people productive.",
+			"A personalized artwork that celebrates passion for sports and identity, jersey paintings transform fabric into a canvas that captures pride, energy, and unforgettable moments.",
 		imageUrl: iam,
 	},
 	{
 		id: 3,
-		index: "endpoint-management",
-		title: "SECURITY INFORMATION & EVENTS MANAGEMENT",
+		index: "Inverted",
+		title: "Inverted Color Painting",
 		description:
-			"Stay one step ahead of threats with real-time monitoring and analysis. Our SIEM solutions give you full visibility into security events across your organization, enabling faster detection, smarter responses, and stronger compliance.",
+			"By reversing colors, this unique style transforms ordinary subjects into bold, eye-catching compositions, revealing hidden contrasts and a fresh perspective on reality",
 		imageUrl: siem,
 	},
 	{
 		id: 4,
-		index: "endpoint-management",
-		title: "UNIFIED ENDPOINT MANAGEMENT & SECURITY",
+		index: "Pencil",
+		title: "Pencil & Charcoal Painting",
 		description:
-			"Manage and secure every device, everywhere — from desktops to mobiles and IoT. Our UEM solutions reduce IT complexity, safeguard sensitive data, and keep your workforce connected and productive on any device.",
+			"Combining the softness of graphite with the bold intensity of charcoal, these artworks achieve hyper-realistic detail, lifelike expressions, and powerful depth on paper.",
 		imageUrl: endpoint,
 	},
 	{
 		id: 5,
-		index: "endpoint-management",
-		title: "IT OPERATIONS MANAGEMENT",
+		index: "Mural",
+		title: "Mural Painting",
 		description:
-			"Ensure your IT infrastructure runs like clockwork. We provide proactive monitoring, automation, and incident management that minimize downtime, optimize performance, and align IT operations with business goals.",
+			"Large-scale artworks painted directly onto walls, murals transform spaces into powerful visual stories. Each piece blends creativity, culture, and environment to create immersive art that inspires and connects communities.",
 		imageUrl: operations,
-	},
-	{
-		id: 6,
-		index: "analytics",
-		title: "ADVANCED IT ANALYTICS",
-		description:
-			"Turn raw data into actionable insights. With our advanced analytics, organizations can uncover hidden trends, optimize decision-making, manage risks, and unlock new opportunities for growth and efficiency.",
-		imageUrl: analytics,
 	},
 ];
