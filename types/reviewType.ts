@@ -1,11 +1,8 @@
+import { StaticImageData } from "next/image";
+
 export interface ReviewsProps {
 	id: string;
-	icon: string;
-	title: string;
-	description: string;
-	name: string;
-	designation: string;
-	profileUrl: string;
+	profileUrl: StaticImageData;
 }
 
 export interface ReviewCardProps {
