@@ -3,7 +3,6 @@ import Hero from "./HomePage/Hero";
 import Approach from "./HomePage/Approach";
 import Contact from "./HomePage/Contact";
 import Review from "./HomePage/Review";
-import Services from "./HomePage/Services";
 
 const Home = () => {
 	return (
@@ -11,7 +10,6 @@ const Home = () => {
 			<Hero />
 			<Approach />
 			<Review />
-			<Services />
 			<Contact />
 		</div>
 	);

@@ -6,7 +6,7 @@ const P = (props: HTMLProps<HTMLParagraphElement>) => {
 		<p
 			{...props}
 			className={cn(
-				"text-sm md:text-base text-[#10316B] text-center",
+				"text-sm md:text-base text-white text-center",
 				props.className
 			)}
 		/>

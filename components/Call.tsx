@@ -57,11 +57,11 @@ export default function ChatWidget({
       <button
         onClick={handleButtonClick}
         aria-label={isOpen ? "Close chat" : "Open chat"}
-        className="fixed bottom-6 right-6 flex justify-center items-center h-14 w-14 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full cursor-pointer shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-200 z-50 group"
+        className="fixed bottom-6 right-6 flex justify-center items-center h-14 w-14 bg-[#D4ECDD] rounded-full cursor-pointer shadow-lg hover:shadow-xl hover:scale-110 active:scale-95 transition-all duration-200 z-50 group"
       >
         <div className="relative">
           <Phone
-            className={`text-white w-5 h-5 transition-all duration-300 ${
+            className={`text-black w-5 h-5 transition-all duration-300 ${
               isOpen
                 ? "rotate-90 opacity-0 scale-0"
                 : "rotate-0 opacity-100 scale-100"
@@ -78,7 +78,7 @@ export default function ChatWidget({
 
         {/* Pulse animation when disconnected */}
         {agentState === "disconnected" && !isOpen && (
-          <span className="absolute inset-0 rounded-full bg-blue-600 animate-ping opacity-75" />
+          <span className="absolute inset-0 rounded-full bg-[#D4ECDD] animate-ping opacity-75" />
         )}
       </button>
 

@@ -44,6 +44,7 @@ const MobileNav = ({ navClose, showNav, handleshowModel }: Prop) => {
 						variant="outline"
 						size="default"
 						onClick={() => (window.location.href = "tel:+12244643952")}
+						className="text-black"
 					>
 						Contact Us
 					</Button>

@@ -9,9 +9,9 @@ import { reviewData } from "@/data/reviewData";
 
 const Review = () => {
   return (
-    <Section className="bg-gray-200">
+    <Section>
       <Main data-aos="fade-up">
-        <H2>Hear it From Our Clients</H2>
+        <H2>Our Clients are Happy</H2>
 
         {/* Review grid */}
         <Grid className="lg:grid-cols-4 cursor-pointer">

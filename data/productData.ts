@@ -1,7 +1,7 @@
 export const activaDirectory = [
 	{
 		index: 1,
-		title: "ADManager Plus",
+		title: "Oil Painting",
 		description: [
 			"Active Directory user management",
 			"Microsoft 365 and Exchange Server management and reporting",

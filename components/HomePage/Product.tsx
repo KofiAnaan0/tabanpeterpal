@@ -4,7 +4,6 @@ import Main from "../ui/Main";
 import H2 from "../ui/H2";
 import {
 	activaDirectory,
-	analytics,
 	EndpointManagement,
 	Enterprise,
 	IdentityGovernance,
@@ -19,7 +18,7 @@ const Product = () => {
 				{/* activaDirectory */}
 					<div id="iam" className="space-y-8 py-16 md:py-8">
 						{/* title - sticky at top */}
-						<H2>Active Directory Management</H2>
+						<H2>Oil Painting</H2>
 
 						{/* cards with stacking effect */} 
 						<div className="flex flex-col items-center gap-6">
@@ -38,7 +37,7 @@ const Product = () => {
 					{/* IdentityGovernance */}
 					<div className="space-y-8">
 						{/* title - sticky at top */}
-						<H2>Identity Governance and Administration</H2>
+						<H2>Jersey Painting</H2>
 
 						{/* cards with stacking effect */}
 						<div className="flex flex-col items-center gap-6">
@@ -57,7 +56,7 @@ const Product = () => {
 					{/* PrivilegedAccess */}
 					<div className="space-y-8">
 						{/* title - sticky at top */}
-						<H2>Privileged Access Management</H2>
+						<H2>Inverted Color Painting</H2>
 
 						{/* cards with stacking effect */}
 						<div className="flex flex-col items-center gap-6">
@@ -76,7 +75,7 @@ const Product = () => {
 					{/* EndpointManagement */}
 					<div id="endpoint-management" className="space-y-8">
 						{/* title - sticky at top */}
-						<H2>Endpoint Management</H2>
+						<H2>Pencil & Charcoal Painting</H2>
 
 						{/* cards with stacking effect */}
 						<div className="flex flex-col items-center gap-6">
@@ -95,30 +94,11 @@ const Product = () => {
 					{/* Enterprise */}
 					<div id="enterprise-management" className="space-y-8">
 						{/* title - sticky at top */}
-						<H2>Enterprise and IT Service Management</H2>
+						<H2>Mural Painting</H2>
 
 						{/* cards with stacking effect */}
 						<div className="flex flex-col items-center gap-6">
 							{Enterprise.map((item, index) => (
-								<div
-									key={item.index}
-									className="sticky"
-									style={{ top: `${150 + index * 20}px` }}
-								>
-									<ProductCard {...item} />
-								</div>
-							))}
-						</div>
-					</div>
-
-					{/* IT analytics */}
-					<div id="analytics" className="space-y-8">
-						{/* title - sticky at top */}
-						<H2>IT analytics</H2>
-
-						{/* cards with stacking effect */}
-						<div className="flex flex-col items-center gap-6">
-							{analytics.map((item, index) => (
 								<div
 									key={item.index}
 									className="sticky"

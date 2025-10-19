@@ -7,9 +7,9 @@ const buttonVariant = cva(
 	{
 		variants: {
 			variant: {
-				default: "bg-[#10316B] text-white focus:outline-none ",
+				default: "bg-[#D4ECDD] text-black focus:outline-none ",
 				outline:
-					" text-[#10316B] border border-[#10316B] bg-transparent focus:outline-none",
+					" text-[#D4ECDD] border border-[#D4ECDD] bg-transparent focus:outline-none",
 				loading: "bg-gray-400 text-gray-600 cursor-not-allowed shadow-none",
 			},
 			size: {

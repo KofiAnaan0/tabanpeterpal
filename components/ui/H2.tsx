@@ -6,7 +6,7 @@ const H2 = (props: HTMLProps<HTMLHeadingElement>) => {
 		<h2
 			{...props}
 			className={cn(
-				"text-2xl sm:text-3xl font-bold tracking-tight leading-snug text-[#10316B] max-w-3xl mx-auto text-center",
+				"text-2xl sm:text-3xl font-bold tracking-tight leading-snug text-white max-w-3xl mx-auto text-center",
 				props.className
 			)}
 		/>

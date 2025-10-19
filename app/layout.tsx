@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={`${poppins.className} antialiased bg-[#FCFAEE]`}>
+      <body className={`${poppins.className} antialiased bg-black`}>
         <ClientWrapper>
           {children}
           <Phone />

@@ -9,7 +9,7 @@ import { companyData, productData, socialLinks } from "@/data/footerData";
 
 const Footer = () => {
 	return (
-		<Section className="bg-[#0B1D51] mb-0 py-4 mt-0">
+		<Section className="bg-black mb-0 py-4 mt-0">
 			<Main data-aos="fade-up">
 				<Grid className="lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8">
 					{/* about */}

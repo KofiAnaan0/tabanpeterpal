@@ -32,8 +32,8 @@ const Nav = ({ navOpen }: Props) => {
     <div
       className={`${
         navBg
-          ? "bg-[#0B1D51]/75 shadow-sm backdrop-blur-lg"
-          : "fixed bg-[#0B1D51]"
+          ? "bg-black/75 shadow-sm backdrop-blur-lg"
+          : "fixed bg-black"
       } fixed z-[100]  h-[12vh] w-full transition-all duration-100 `}
     >
       <div className="w-[90%] lg:w-[80%] h-full flex justify-between items-center mx-auto">
