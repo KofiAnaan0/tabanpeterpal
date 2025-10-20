@@ -86,7 +86,7 @@ const Footer = () => {
 				{/* Copyright */}
 				<div className="flex items-center justify-center">
 					<P className="text-xs md:text-xs text-gray-400">
-						Copyright ©{new Date().getFullYear()} Africa DataEdge All Rights
+						Copyright ©{new Date().getFullYear()} Taban Peter Pal All Rights
 						Reserved.
 					</P>
 				</div>
