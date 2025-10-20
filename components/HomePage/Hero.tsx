@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <Section className="pt-36 md:pt-38 relative overflow-hidden">
       {/* Background Video */}
-      {/* <div className="absolute inset-0 w-full h-full z-0">
+      <div className="absolute inset-0 w-full h-full z-0">
         <video
           autoPlay
           loop
@@ -22,7 +22,7 @@ const Hero = () => {
         </video>
         Overlay for better text readability
         <div className="absolute inset-0 bg-black/50"></div>
-      </div> */}
+      </div>
 
       {/* main content */}
       <Main data-aos="fade-up" className="relative z-10">
