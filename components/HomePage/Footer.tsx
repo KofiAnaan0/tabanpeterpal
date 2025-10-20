@@ -15,19 +15,17 @@ const Footer = () => {
 					{/* about */}
 					<div className="space-y-4">
 						{/* title */}
-						<H3 className="text-gray-100 text-start">Africa DataEdge</H3>
+						<H3 className="text-gray-100 text-start">Taban Peter Pal</H3>
 
 						{/* description */}
 						<P className="text-gray-200 text-start text-xs md:text-xs">
-							We empowers businesses with innovative, secure, and efficient IT
-							management solutions to optimize and safeguard their digital
-							ecosystems.
+							Hyper-realistic artist inspired to empower youth through art.
 						</P>
 					</div>
 
 					{/* Company */}
 					<div className="space-y-4">
-						<H3 className="text-gray-100 text-start">Company</H3>
+						<H3 className="text-gray-100 text-start">Quick Links</H3>
 
 						<div className="flex flex-col space-y-2">
 							{companyData.map((company) => (
