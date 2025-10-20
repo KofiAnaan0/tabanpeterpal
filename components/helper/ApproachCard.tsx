@@ -37,6 +37,7 @@ const ApproachCard = ({
   }, [tiktokVideoId]);
 
   const textOrder = reversed ? "md:order-2" : "md:order-1";
+  const tiktokOrder = reversed ? "md:order-1" : "md:order-2";
 
   return (
     <Section>
@@ -44,7 +45,7 @@ const ApproachCard = ({
         {/* iPhone Frame with TikTok Embed */}
         {tiktokVideoId && tiktokUsername && (
           <div
-            className="relative w-full md:w-[380px] flex justify-center"
+            className={`relative w-full md:w-[380px] flex justify-center ${tiktokOrder}`}
             data-aos="zoom-in"
             data-aos-delay="150"
           >

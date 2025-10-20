@@ -1,49 +1,56 @@
 "use client";
-
 import React from "react";
-import H3 from "../ui/H3";
-import { Button } from "../ui/Button";
 
 type ProductProps = {
-  title: string;
-  description: string[];
-  color: string;
-  textColor: string;
+  tiktokVideoId?: string;
+  tiktokUsername?: string;
 };
 
 const ProductCard = ({
-  title,
-  description,
-  color,
-  textColor,
+  tiktokVideoId,
+  tiktokUsername
 }: ProductProps) => {
+
   return (
     <div
-      className="flex flex-col justify-center items-center w-[384px] md:w-[448px] rounded-md p-4 gap-4"
-      style={{ backgroundColor: color }}
+      className={`relative w-full md:w-[380px] flex justify-center`}
+      data-aos="zoom-in"
+      data-aos-delay="150"
     >
-      {/* title */}
-      <H3 style={{ color: textColor }}>{title}</H3>
-
-      {/* description */}
-      <ul className="list-disc list-inside space-y-2 text-sm">
-        {description.map((item, index) => (
-          <li key={index} style={{ color: textColor }}>
-            {item}
-          </li>
-        ))}
-      </ul>
-
-      {/* CTA */}
-      <div className="flex items-center justify-center mt-auto">
-        <Button
-          style={{ backgroundColor: textColor, color: color }}
-          onClick={() => {
-            window.dispatchEvent(new CustomEvent("openChatWidget"));
-          }}
+      {/* iPhone Frame */}
+      <div className="relative bg-[#D4ECDD] rounded-[50px] p-2 shadow-2xl">
+        {/* iPhone Notch */}
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-40 h-7 bg-[#D4ECDD] rounded-b-3xl z-10"></div>
+        
+        {/* Screen Container */}
+        <div
+          className="relative bg-black p-1 rounded-[42px] overflow-hidden"
+          style={{ width: "320px", height: "570px" }}
         >
-          Call Us
-        </Button>
+          {/* TikTok Video */}
+          <div className="absolute inset-0 flex justify-center items-center">
+            <blockquote
+              className="tiktok-embed w-full h-full"
+              cite={`https://www.tiktok.com/@${tiktokUsername}/video/${tiktokVideoId}`}
+              data-video-id={tiktokVideoId}
+            >
+              <section className="w-full">
+                <a
+                  target="_blank"
+                  title={`@${tiktokUsername}`}
+                  href={`https://www.tiktok.com/@${tiktokUsername}?refer=embed`}
+                  rel="noopener noreferrer"
+                  className="w-full"
+                >
+                  @{tiktokUsername}
+                </a>
+              </section>
+            </blockquote>
+          </div>
+        </div>
+        
+        {/* Home Indicator */}
+        <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-32 h-1 bg-gray-800 rounded-full"></div>
       </div>
     </div>
   );
